@@ -15,6 +15,8 @@ ENV/
 # Databases & Local Persistence
 *.db
 *.db-journal
+*.db-wal
+*.db-shm
 *.sqlite3
 sentiment_system.db
 
