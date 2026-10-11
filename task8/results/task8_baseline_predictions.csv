@@ -1,0 +1,5 @@
+Review ID,Category,Review Text,True Sentiment,Predicted Sentiment,Prob Negative,Prob Positive,Confidence,Correct
+REV_01_POS,Clearly Positive,"This product is absolutely amazing! The build quality is excellent, great performance, and I really love using it every day.",Positive,Positive,0.0021,0.9979,0.9979,True
+REV_02_NEG,Clearly Negative,"Terrible quality. It broke after two days of use. Completely useless, awful customer support, and a total waste of money.",Negative,Negative,1.0,0.0,1.0,True
+REV_03_AMB,Ambiguous / Mixed,"The design looks good and attractive, but the battery life is poor and disappointing. Mixed feelings overall.",Negative,Negative,0.9997,0.0003,0.9997,True
+REV_04_EDGE,Edge Case / Sarcastic,"Not bad at all for the price, though not the best quality either. It works as expected.",Positive,Negative,0.8526,0.1474,0.8526,False

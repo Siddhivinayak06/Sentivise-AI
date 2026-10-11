@@ -1,0 +1,13 @@
+Review ID,Category,Word,LIME Weight,Impact
+REV_01_POS,Clearly Positive,excellent,0.11343,Supports Positive
+REV_01_POS,Clearly Positive,great,0.09587,Supports Positive
+REV_01_POS,Clearly Positive,amazing,0.08562,Supports Positive
+REV_01_POS,Clearly Positive,love,0.05027,Supports Positive
+REV_01_POS,Clearly Positive,absolutely,-0.02674,Supports Negative
+REV_01_POS,Clearly Positive,and,0.02632,Supports Positive
+REV_02_NEG,Clearly Negative,Terrible,-0.03242,Supports Negative
+REV_02_NEG,Clearly Negative,waste,-0.03197,Supports Negative
+REV_02_NEG,Clearly Negative,after,-0.0169,Supports Negative
+REV_02_NEG,Clearly Negative,money,-0.01444,Supports Negative
+REV_02_NEG,Clearly Negative,two,-0.00809,Supports Negative
+REV_02_NEG,Clearly Negative,and,0.00741,Supports Positive

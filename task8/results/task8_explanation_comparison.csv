@@ -1,0 +1,8 @@
+Criterion,SHAP,LIME,Counterfactual
+Primary Objective,Global & local Shapley feature attribution,Local linear surrogate approximation,Minimal input change to flip prediction
+Mathematical Foundation,Axiomatic cooperative game theory,Local perturbation optimization,Constrained search over edit distance
+Scope,Local instance & Global dataset summary,Strictly local (instance level),Strictly local (instance level)
+Output Format,Signed real-valued feature contributions,Interpretable linear token weights,Modified synthetic review text
+Model Agnostic,Model-specific explainers (Tree/Linear/Kernel),Completely model-agnostic (black-box),Completely model-agnostic (black-box)
+Computational Cost,Fast for Linear/Tree; O(2^|F|) for exact,Moderate (requires 500-1000 sample probes),Very Fast (heuristic dictionary search)
+Primary Limitation,Feature independence assumption in Linear,Sampling variability & unstable local weights,Linguistic fluency & syntax plausibility

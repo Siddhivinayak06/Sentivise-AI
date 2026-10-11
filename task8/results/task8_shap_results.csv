@@ -1,0 +1,17 @@
+Review ID,Category,Feature,SHAP Value,Impact
+REV_01_POS,Clearly Positive,product,-0.10735,Negative Push
+REV_01_POS,Clearly Positive,well,-0.11597,Negative Push
+REV_01_POS,Clearly Positive,not,0.23246,Positive Push
+REV_01_POS,Clearly Positive,this product,-0.31276,Negative Push
+REV_01_POS,Clearly Positive,love,0.98703,Positive Push
+REV_01_POS,Clearly Positive,great,1.2295,Positive Push
+REV_01_POS,Clearly Positive,amazing,2.20271,Positive Push
+REV_01_POS,Clearly Positive,excellent,2.32821,Positive Push
+REV_02_NEG,Clearly Negative,not,0.23246,Positive Push
+REV_02_NEG,Clearly Negative,great,-0.33041,Negative Push
+REV_02_NEG,Clearly Negative,after,-0.62946,Negative Push
+REV_02_NEG,Clearly Negative,money,-0.86779,Negative Push
+REV_02_NEG,Clearly Negative,negative_word_count,-0.88671,Negative Push
+REV_02_NEG,Clearly Negative,waste,-2.00623,Negative Push
+REV_02_NEG,Clearly Negative,waste of,-2.27022,Negative Push
+REV_02_NEG,Clearly Negative,terrible,-3.1822,Negative Push

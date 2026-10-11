@@ -1,0 +1,37 @@
+{
+    "Task": "Task 8 \u2013 Explainable AI (XAI) for Product Review Sentiment Analysis",
+    "Model Evaluated": "Logistic Regression (Best)",
+    "Label Mapping": {
+        "0": "Negative",
+        "1": "Positive"
+    },
+    "Selected Features Count": 100,
+    "Methods Implemented": [
+        "SHAP (LinearExplainer)",
+        "LIME (LimeTextExplainer)",
+        "Counterfactual Explanations"
+    ],
+    "Curated Reviews Analyzed": 4,
+    "Consistency Metrics": {
+        "Positive Review Jaccard": 0.1111,
+        "Negative Review Jaccard": 0.25
+    },
+    "Average Runtimes (seconds)": {
+        "SHAP": 0.00026935338973999023,
+        "LIME": 0.13089489936828613,
+        "Counterfactual": 0.011297047138214111
+    },
+    "Generated Artifacts": [
+        "task8/results/task8_baseline_predictions.csv",
+        "task8/results/task8_shap_results.csv",
+        "task8/results/task8_lime_results.csv",
+        "task8/results/task8_counterfactual_results.csv",
+        "task8/results/task8_explanation_comparison.csv",
+        "task8/results/task8_consistency_results.csv",
+        "task8/graphs/01_shap_local_explanations.png",
+        "task8/graphs/03_shap_global_importance.png",
+        "task8/graphs/04_lime_local_explanations.png",
+        "task8/graphs/07_counterfactual_comparison.png",
+        "task8/graphs/08_explanation_runtime_comparison.png"
+    ]
+}

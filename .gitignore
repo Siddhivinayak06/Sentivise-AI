@@ -1,0 +1,32 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environments
+venv/
+env/
+ENV/
+.env
+.env.local
+
+# Databases & Local Persistence
+*.db
+*.db-journal
+*.sqlite3
+sentiment_system.db
+
+# Large Datasets (keep raw 350MB+ data out of git)
+clean_product_reviews.csv
+X_train.csv
+X_test.csv
+
+# Compiled frontend artifacts
+frontend/.next/
+frontend/node_modules/
+
+# OS Specific
+.DS_Store
+Thumbs.db

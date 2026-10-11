@@ -1,0 +1,4 @@
+Configuration,Hidden Layers,Neurons,Dropout,Learning Rate,Batch Size,Epochs,Validation Accuracy,Validation Loss
+Config 1,128 -> 64 -> 32,"128,64,32",0.3,0.001,256,3,0.8163333535194397,0.4018503725528717
+Config 2,128 -> 64 -> 32,"128,64,32",0.5,0.001,256,3,0.8113333582878113,0.40670374035835266
+Config 3,64 -> 32,"64,32",0.3,0.001,256,3,0.8159999847412109,0.4012152850627899

@@ -1,0 +1,13 @@
+Feature Name,Feature Type,Source,Description,Calculation,Reason for Use
+review_length,Text-based,Review,Number of characters,len(review),Measures review size
+word_count,Text-based,Review,Number of words,len(split()),Measures length in words
+character_count,Text-based,Review,Total characters,len(review),Overall volume of text
+sentence_count,Text-based,Review,Estimated sentences,count punctuation,Sentence complexity
+average_word_length,Text-based,Review,Avg chars per word,char_count / word_count,Vocabulary complexity
+exclamation_count,Text-based,Review,Number of !,"count(""!"")",Measures excitement/anger
+question_count,Text-based,Review,Number of ?,"count(""?"")",Measures uncertainty
+Text-based,Review,Uppercase letters,count(isupper),Measures emphasis (shouting),
+digit_count,Text-based,Review,Number of digits,count(isdigit),Measures specificity (prices/versions)
+positive_word_count,Lexical,Review,Positive keywords,count(positive list),Proxy for positive sentiment
+negative_word_count,Lexical,Review,Negative keywords,count(negative list),Proxy for negative sentiment
+sentiment_keyword_score,Lexical,Review,Pos - Neg words,pos_count - neg_count,Overall net keyword sentiment
